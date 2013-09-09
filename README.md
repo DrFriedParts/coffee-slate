@@ -9,7 +9,14 @@ Now, you can use coffeescript to write the Slate configuration file and compile 
 
 ## Documentation
 
-You can find the javascript API for Slate [here](https://github.com/jigish/slate/wiki/JavaScript-Configs)
+You can find the javascript API for Slate [here](https://github.com/jigish/slate/wiki/JavaScript-Configs).
+
+In the slate.coffee file you will have access to the following global objects:
+
+* slate - the API to access Slate
+* _ - [Underscore.js](http://underscorejs.org/)
+
+If an exception is thrown, Slate will stop executing and show an alert.
 
 ## Installation & Usage
 
